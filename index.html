@@ -19,7 +19,23 @@
             <div class="grid">
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item header__navbar-item--separate">Vào cửa hàng trên ứng dụng F8-Shop</li>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng F8-Shop
+
+                            <!-- Header QR Code -->
+                            <div class="header__qr">
+                                <img src="./ASSETS/IMAGE/qr_code.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./ASSETS/IMAGE/google_play.png" alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./ASSETS/IMAGE/app_store.png" alt="App Store" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
                         <li class="header__navbar-item">
                             <span class="header__navbar-title--no-pointer">Kết nối</span>
                             <a href="" class="header__navbar-icon-link">
@@ -35,15 +51,31 @@
                         <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link">
                                 <a href="" class="header__navbar-icon-link">
-                                    <i class="header__navbar-icon fa-bell"></i>
+                                    <i class="header__navbar-icon fa-regular fa-bell"></i>
                                </a>
                                 Thông báo
-                            </a>
+                            </a> 
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="header__notify-link">
+                                            <img src="https://img.tickid.vn/photos/resized/200x120/83-1574758841-myphamohui-lgvina.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notify-descriotion">Mô tả mỹ phẩm Ohui chính hãng </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link">
                                 <a href="" class="header__navbar-icon-link">
-                                    <i class="header__navbar-icon fa-circle-question"></i>
+                                    <i class="header__navbar-icon fa-regular fa-circle-question"></i>
                                 </a>
                                 Trợ giúp
                             </a>
